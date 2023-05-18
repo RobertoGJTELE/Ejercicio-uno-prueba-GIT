@@ -1,0 +1,30 @@
+*{margin: 0;padding: 0;}
+body{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;background-color: #ccc;}
+.contenedor{margin: 0 auto;width: 80%;overflow: auto;max-width: 1366px;}
+header{width: 100%;height: 150px;background-color: #555;}
+h1{padding-top: 30px; color: white; font-size: 50px;font-family: cursive; text-align: center;}
+nav{width: 100%;height: 50px;background-color: white;}
+section{border: solid 2px #555;width: 74%;float: left;color: black;margin-top: 10px;border-radius:20px;background:-webkit-linear-gradient(top,#ffffff,#806699);min-height: 500px;}
+aside{width: 22%; background-color:fuchsia; height: 450px; float: right;margin-top: 10px;margin-left: 3%;}
+footer{width: 100%;height: 100px;background-color: orange;margin-top: 10px;}
+p{color: antiquewhite;margin-left: 20px;margin-top: 20px;font-size: 50px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.clear{clear:left;}
+ul{list-style-position: inside;margin-left: 15px;margin-top: 10px;font-size: 24px;line-height: 50px;}
+#menu{list-style: none;text-decoration: none;}
+#menu li{float: left;margin-left: 15px;color: aliceblue;}
+#menu a{text-decoration: none;}
+#menu a:hover{color: black;}
+section form{ width:60%;margin: 30px auto;}
+label{display:inline-block;width:auto;}
+input{width: 200px;}
+textarea{width: 200px;}
+#envio{width: 120px;height: 30px;background-color: gray; font-size: 18px;border: none;margin-top: 20px;}
+@media only screen and (max-width:768px){
+section{background-color: red;float: none;width: 100%;}
+aside{float: none;width: 100%;}
+}
+@media only screen and (max-width:480px){
+    section{background-color: yellow;}
+    #menu li{float: none;float: none;margin-left: 0;width: 100%;}
+    nav{height: auto;}
+    }
