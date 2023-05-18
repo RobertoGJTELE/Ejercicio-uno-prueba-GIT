@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IGNORE</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header><h1>HEADER</h1></header>
+        <nav>
+            <ul id="menu">
+            <li><a href="index.html">MENU</a> </li>
+            <li><a href="Productos.html">PRODUCTOS</a></li>
+            <li><a href="Contacto.html">CONTACTO</a></li>
+        </ul>
+        </nav>
+        <section><h1>POSICIONAMIENTO</h1> 
+            <img src="imagen.png" alt="CHROME">
+        <p>holañslfjkajfjsh</p>
+        </section>
+        <aside>
+            <ul>
+                <li>1.-VERACRUZ</li>
+                <li>2.-ROBERTO</li>
+                <li>3.-TELECOMUNICACIONES</li>
+                <li>4.-MESA</li>
+            </ul>
+        </aside>
+        <div class="clear"></div>
+<footer>Footer<footer>
+    </div>
+</body>
+</html>
